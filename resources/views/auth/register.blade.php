@@ -111,6 +111,14 @@
                                             </div>
 
                                             <div class="mb-3">
+                                                <label for="role" class="form-label">Enter Role</label>
+                                                <input type="text" class="form-control" name="role" placeholder="Enter username" required>
+                                                <div class="invalid-feedback">
+                                                    Please Enter Role
+                                                </div>  
+                                            </div>
+
+                                            <div class="mb-3">
                                                 <label for="username" class="form-label">Username</label>
                                                 <input type="text" class="form-control" id="username" placeholder="Enter username" name="name" value="{{ old('name') }}" required>
                                                 <div class="invalid-feedback">

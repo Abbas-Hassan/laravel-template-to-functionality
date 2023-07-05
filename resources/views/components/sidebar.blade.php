@@ -14,11 +14,19 @@
                         <span key="t-dashboards">Dashboards</span>
                     </a>
                     <ul class="sub-menu" aria-expanded="false">
+                        
+                        
+
+                
                         <li><a href="{{ route('home') }}" key="t-default">Default</a></li>
                         <li><a href="{{ route('dashboard-sass') }}" key="t-saas">Saas</a></li>
                         <li><a href="dashboard-crypto.html" key="t-crypto">Crypto</a></li>
                         <li><a href="dashboard-blog.html" key="t-blog">Blog</a></li>
                         <li><a href="dashboard-job.html"><span class="badge rounded-pill text-bg-success float-end" key="t-new">New</span> <span key="t-jobs">Jobs</span></a></li>
+                       
+                        <li><a href="{{ route('home') }}" key="t-default">Default</a></li>
+                        <li><a href="{{ route('dashboard-sass') }}" key="t-saas">Saas</a></li>
+                        
                     </ul>
                 </li>
 
